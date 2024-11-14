@@ -62,11 +62,11 @@ def get_gemini_pro_text_response(
             continue
     return " ".join(final_response)
 
-st.header("AI Chef for your own Recipes", divider="blue") #Vertex AI Gemini API
+st.header("AI Chef for your Recipes", divider="blue") #Vertex AI Gemini API
 text_model_pro = load_models()
 
 #st.write("Using Gemini Pro - Text only model")
-st.subheader("Design your Recipe") #AI Chef
+st.subheader("Design your own Recipe") #AI Chef
 
 cuisine = st.selectbox(
     "What cuisine do you desire?",
